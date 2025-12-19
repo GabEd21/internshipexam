@@ -48,7 +48,7 @@ The frontend runs on port `5173` (default for Vite).
 
 ## Usage
 
-- **Login**: Use the demo credentials provided on the login screen (`admin@example.com` / `password123`).
+- **Login**: Use the demo credentials provided on the login screen (`admin@test.com` / `123456789`).
 - **Dashboard**: View your IP location data.
 - **Search**: Enter an IP address to lookup its location.
 - **History**: View recent searches, select them to view on the map, or bulk delete them.
