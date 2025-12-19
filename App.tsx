@@ -341,7 +341,7 @@ const App: React.FC = () => {
 
                       {/* List Items */}
                       <div className="max-h-60 overflow-y-auto">
-                        {searchHistory.map((ip, idx) => (
+                        {searchHistory.map((ip, _idx) => (
                             <div 
                               key={ip} 
                               className={`grid grid-cols-12 gap-4 p-3 items-center hover:bg-white transition-colors border-b last:border-b-0 border-slate-100 ${selectedHistory.has(ip) ? 'bg-indigo-50/50' : ''}`}
