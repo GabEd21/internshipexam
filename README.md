@@ -1,4 +1,4 @@
-# Simple Login & Geo-Location App
+# Simple Login & Geo-Location App (Internship_Exam)
 
 This project consists of a React frontend and a Node.js/Express backend.
 
