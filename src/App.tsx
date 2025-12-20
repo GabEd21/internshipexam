@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { LoginForm } from './components/LoginForm';
-import { User, GeoData } from './types';
-import { fetchGeoLocation } from './services/geoService';
+import { LoginForm } from '../components/LoginForm';
+import { User, GeoData } from '../types';
+import { fetchGeoLocation } from '../services/geoService';
 
 const App: React.FC = () => {
   const [user, setUser] = useState<User | null>(null);
